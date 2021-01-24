@@ -1,0 +1,23 @@
+CREATE TABLE [dbo].[Ots]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [startdate] DATETIME NOT NULL, 
+    [enddate] DATETIME NOT NULL, 
+    [reference] VARCHAR(20) NULL, 
+    [invoice] VARCHAR(20) NOT NULL, 
+    [department] INT NOT NULL, 
+    [costcenter] INT NOT NULL, 
+    [account] VARCHAR(20) NOT NULL, 
+    [project_code] VARCHAR(20) NOT NULL, 
+    [description] VARCHAR(500) NOT NULL, 
+    [contractor] VARCHAR(20) NOT NULL, 
+    [labor_price] DECIMAL(20, 2) NOT NULL, 
+    [material_price] DECIMAL(20, 2) NOT NULL, 
+    [state_Project] VARCHAR(20) NOT NULL, 
+    [userid] VARCHAR(20) NOT NULL, 
+    [comment] VARCHAR(1500) NOT NULL, 
+    [state] TINYINT NULL, 
+    [created_at] SMALLDATETIME NOT NULL DEFAULT GETDATE(), 
+    [updated_at] TIMESTAMP NOT NULL , 
+    [idteam] INT NOT NULL
+)
