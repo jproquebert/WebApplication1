@@ -12,7 +12,7 @@ CRUD entity Framework
  2) Usar el query del archivo "Table Creation Query.txt" para crear la tabla requerida.
 
 
- 3) Correr el programa en Visual Studio Code (F5)
+ 3) Correr el programa en Visual Studio (F5)
  Debug -> Start Debugging
  
  
